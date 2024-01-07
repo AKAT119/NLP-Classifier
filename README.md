@@ -23,6 +23,8 @@ Feature Extraction
 
 The CountVectorizer from scikit-learn is used to convert text data into a matrix of token counts.
 Then, Tf-idf Transformer is applied to reflect the importance of a term in the document and the entire corpus.
+
+
 Model Training and Evaluation
 
 A Multinomial Naive Bayes classifier is trained on the processed dataset.
